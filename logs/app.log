@@ -1,0 +1,193 @@
+2026-02-10 21:17:29 | INFO | excel_store | DE-PARA carregado: 2 agências.
+2026-02-10 21:17:51 | WARNING | cli | Agência inválida informada: A0001
+2026-02-10 21:18:34 | ERROR | excel_store | Erro ao gravar pedido: [Errno 13] Permission denied: 'C:\\Users\\erick\\OneDrive\\Documentos\\automacao_suprimentos\\app\\data\\pedidos.xlsx'
+Traceback (most recent call last):
+  File "C:\Users\erick\OneDrive\Documentos\automacao_suprimentos\app\io\excel_store.py", line 48, in append_pedido
+    df.to_excel(PEDIDOS_XLSX, index=False, engine=ENGINE)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\erick\AppData\Local\Programs\Python\Python314\Lib\site-packages\pandas\util\_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\erick\AppData\Local\Programs\Python\Python314\Lib\site-packages\pandas\core\generic.py", line 2439, in to_excel
+    formatter.write(
+    ~~~~~~~~~~~~~~~^
+        excel_writer,
+        ^^^^^^^^^^^^^
+    ...<6 lines>...
+        engine_kwargs=engine_kwargs,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\erick\AppData\Local\Programs\Python\Python314\Lib\site-packages\pandas\io\formats\excel.py", line 943, in write
+    writer = ExcelWriter(
+        writer,
+    ...<2 lines>...
+        engine_kwargs=engine_kwargs,
+    )
+  File "C:\Users\erick\AppData\Local\Programs\Python\Python314\Lib\site-packages\pandas\io\excel\_openpyxl.py", line 61, in __init__
+    super().__init__(
+    ~~~~~~~~~~~~~~~~^
+        path,
+        ^^^^^
+    ...<3 lines>...
+        engine_kwargs=engine_kwargs,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\erick\AppData\Local\Programs\Python\Python314\Lib\site-packages\pandas\io\excel\_base.py", line 1246, in __init__
+    self._handles = get_handle(
+                    ~~~~~~~~~~^
+        path, mode, storage_options=storage_options, is_text=False
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\erick\AppData\Local\Programs\Python\Python314\Lib\site-packages\pandas\io\common.py", line 882, in get_handle
+    handle = open(handle, ioargs.mode)
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\erick\\OneDrive\\Documentos\\automacao_suprimentos\\app\\data\\pedidos.xlsx'
+2026-02-10 21:18:34 | ERROR | cli | Erro inesperado no fluxo de atendimento
+Traceback (most recent call last):
+  File "C:\Users\erick\OneDrive\Documentos\automacao_suprimentos\app\cli_simulator.py", line 76, in main
+    fluxo_atendimento(df_depara)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\erick\OneDrive\Documentos\automacao_suprimentos\app\cli_simulator.py", line 61, in fluxo_atendimento
+    append_pedido(registro)
+    ~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\erick\OneDrive\Documentos\automacao_suprimentos\app\io\excel_store.py", line 48, in append_pedido
+    df.to_excel(PEDIDOS_XLSX, index=False, engine=ENGINE)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\erick\AppData\Local\Programs\Python\Python314\Lib\site-packages\pandas\util\_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\erick\AppData\Local\Programs\Python\Python314\Lib\site-packages\pandas\core\generic.py", line 2439, in to_excel
+    formatter.write(
+    ~~~~~~~~~~~~~~~^
+        excel_writer,
+        ^^^^^^^^^^^^^
+    ...<6 lines>...
+        engine_kwargs=engine_kwargs,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\erick\AppData\Local\Programs\Python\Python314\Lib\site-packages\pandas\io\formats\excel.py", line 943, in write
+    writer = ExcelWriter(
+        writer,
+    ...<2 lines>...
+        engine_kwargs=engine_kwargs,
+    )
+  File "C:\Users\erick\AppData\Local\Programs\Python\Python314\Lib\site-packages\pandas\io\excel\_openpyxl.py", line 61, in __init__
+    super().__init__(
+    ~~~~~~~~~~~~~~~~^
+        path,
+        ^^^^^
+    ...<3 lines>...
+        engine_kwargs=engine_kwargs,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\erick\AppData\Local\Programs\Python\Python314\Lib\site-packages\pandas\io\excel\_base.py", line 1246, in __init__
+    self._handles = get_handle(
+                    ~~~~~~~~~~^
+        path, mode, storage_options=storage_options, is_text=False
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\erick\AppData\Local\Programs\Python\Python314\Lib\site-packages\pandas\io\common.py", line 882, in get_handle
+    handle = open(handle, ioargs.mode)
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\erick\\OneDrive\\Documentos\\automacao_suprimentos\\app\\data\\pedidos.xlsx'
+2026-02-10 21:20:37 | INFO | excel_store | DE-PARA carregado: 2 agências.
+2026-02-10 21:20:49 | INFO | excel_store | Pedido registrado | protocolo=SUP-20260210-212049 | agencia=A002 | insumo=BOBINA | qtd=10
+2026-02-10 21:21:19 | INFO | excel_store | DE-PARA carregado: 2 agências.
+2026-02-10 21:21:31 | ERROR | excel_store | Erro ao gravar pedido: [Errno 13] Permission denied: 'C:\\Users\\erick\\OneDrive\\Documentos\\automacao_suprimentos\\app\\data\\pedidos.xlsx'
+Traceback (most recent call last):
+  File "C:\Users\erick\OneDrive\Documentos\automacao_suprimentos\app\io\excel_store.py", line 48, in append_pedido
+    df.to_excel(PEDIDOS_XLSX, index=False, engine=ENGINE)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\erick\AppData\Local\Programs\Python\Python314\Lib\site-packages\pandas\util\_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\erick\AppData\Local\Programs\Python\Python314\Lib\site-packages\pandas\core\generic.py", line 2439, in to_excel
+    formatter.write(
+    ~~~~~~~~~~~~~~~^
+        excel_writer,
+        ^^^^^^^^^^^^^
+    ...<6 lines>...
+        engine_kwargs=engine_kwargs,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\erick\AppData\Local\Programs\Python\Python314\Lib\site-packages\pandas\io\formats\excel.py", line 943, in write
+    writer = ExcelWriter(
+        writer,
+    ...<2 lines>...
+        engine_kwargs=engine_kwargs,
+    )
+  File "C:\Users\erick\AppData\Local\Programs\Python\Python314\Lib\site-packages\pandas\io\excel\_openpyxl.py", line 61, in __init__
+    super().__init__(
+    ~~~~~~~~~~~~~~~~^
+        path,
+        ^^^^^
+    ...<3 lines>...
+        engine_kwargs=engine_kwargs,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\erick\AppData\Local\Programs\Python\Python314\Lib\site-packages\pandas\io\excel\_base.py", line 1246, in __init__
+    self._handles = get_handle(
+                    ~~~~~~~~~~^
+        path, mode, storage_options=storage_options, is_text=False
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\erick\AppData\Local\Programs\Python\Python314\Lib\site-packages\pandas\io\common.py", line 882, in get_handle
+    handle = open(handle, ioargs.mode)
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\erick\\OneDrive\\Documentos\\automacao_suprimentos\\app\\data\\pedidos.xlsx'
+2026-02-10 21:21:31 | ERROR | cli | Erro inesperado no fluxo de atendimento
+Traceback (most recent call last):
+  File "C:\Users\erick\OneDrive\Documentos\automacao_suprimentos\app\cli_simulator.py", line 76, in main
+    fluxo_atendimento(df_depara)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\erick\OneDrive\Documentos\automacao_suprimentos\app\cli_simulator.py", line 61, in fluxo_atendimento
+    append_pedido(registro)
+    ~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\erick\OneDrive\Documentos\automacao_suprimentos\app\io\excel_store.py", line 48, in append_pedido
+    df.to_excel(PEDIDOS_XLSX, index=False, engine=ENGINE)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\erick\AppData\Local\Programs\Python\Python314\Lib\site-packages\pandas\util\_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\erick\AppData\Local\Programs\Python\Python314\Lib\site-packages\pandas\core\generic.py", line 2439, in to_excel
+    formatter.write(
+    ~~~~~~~~~~~~~~~^
+        excel_writer,
+        ^^^^^^^^^^^^^
+    ...<6 lines>...
+        engine_kwargs=engine_kwargs,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\erick\AppData\Local\Programs\Python\Python314\Lib\site-packages\pandas\io\formats\excel.py", line 943, in write
+    writer = ExcelWriter(
+        writer,
+    ...<2 lines>...
+        engine_kwargs=engine_kwargs,
+    )
+  File "C:\Users\erick\AppData\Local\Programs\Python\Python314\Lib\site-packages\pandas\io\excel\_openpyxl.py", line 61, in __init__
+    super().__init__(
+    ~~~~~~~~~~~~~~~~^
+        path,
+        ^^^^^
+    ...<3 lines>...
+        engine_kwargs=engine_kwargs,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\erick\AppData\Local\Programs\Python\Python314\Lib\site-packages\pandas\io\excel\_base.py", line 1246, in __init__
+    self._handles = get_handle(
+                    ~~~~~~~~~~^
+        path, mode, storage_options=storage_options, is_text=False
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\erick\AppData\Local\Programs\Python\Python314\Lib\site-packages\pandas\io\common.py", line 882, in get_handle
+    handle = open(handle, ioargs.mode)
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\erick\\OneDrive\\Documentos\\automacao_suprimentos\\app\\data\\pedidos.xlsx'
+2026-02-10 21:21:55 | INFO | excel_store | DE-PARA carregado: 2 agências.
+2026-02-10 21:22:08 | INFO | excel_store | Pedido registrado | protocolo=SUP-20260210-212208 | agencia=A001 | insumo=BOBINA | qtd=30
+2026-02-10 21:26:48 | INFO | excel_store | DE-PARA carregado: 2 agências.
+2026-02-10 21:27:44 | INFO | excel_store | Pedido registrado | protocolo=SUP-20260210-212744 | agencia=A001 | insumo=BOBINA | qtd=50
