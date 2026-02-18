@@ -1,0 +1,102 @@
+
+COMO RODAR O MVP (FASTAPI + STREAMLIT)
+=====================================
+
+Pré‑requisito: abrir o terminal na pasta do projeto
+Caminho de exemplo (ajuste se necessário):
+C:\Users\erick\OneDrive\Documentos\automacao_suprimentos
+
+0) Abrir terminal na raiz do projeto
+-----------------------------------
+cd "C:\Users\erick\OneDrive\Documentos\automacao_suprimentos"
+
+1) Criar e ativar o ambiente virtual (apenas na primeira vez)
+-------------------------------------------------------------
+python -m venv venv
+.\nvenv\Scripts\activate
+
+2) Instalar dependências
+------------------------
+# Se houver requirements.txt
+pip install -r requirements.txt
+
+# OU instale explicitamente as libs principais
+pip install fastapi uvicorn[standard] streamlit pandas openpyxl requests
+
+3) Subir o BACKEND (FastAPI) – deixe este terminal aberto
+---------------------------------------------------------
+uvicorn app.api.server:app --reload --port 8000
+# Esperado no terminal:
+# Uvicorn running on http://127.0.0.1:8000
+
+3.1) (Opcional) Teste rápido do backend no navegador
+----------------------------------------------------
+http://127.0.0.1:8000/docs
+- GET /validar_agencia/A001 → deve retornar {"valido": true} (com base de exemplo)
+- POST /registrar_pedido → body JSON: {"codigo_agencia":"A001","insumo":"BOBINA","quantidade":3}
+
+4) Subir o FRONTEND (Streamlit) em outro terminal
+-------------------------------------------------
+# Abrir novo PowerShell na mesma pasta e ativar a venv (se necessário)
+.
+venv\Scripts\activate
+
+streamlit run app/web/main.py
+# O navegador abrirá em http://localhost:8501
+
+5) Fluxo de navegação
+---------------------
+Use a barra lateral nativa do Streamlit:
+Início → Agência → Insumo → Quantidade → Revisão
+
+6) Conferir gravação no Excel
+-----------------------------
+Abra: data\pedidos.xlsx
+Verifique a nova linha com: protocolo, data_hora, codigo_agencia, insumo, quantidade, status.
+
+7) Encerrar processos
+---------------------
+# No terminal do backend (Uvicorn):
+Ctrl + C
+# No terminal do frontend (Streamlit):
+Ctrl + C
+# Desativar o ambiente virtual:
+deactivate
+
+8) Script de 1 clique (opcional)
+--------------------------------
+Crie um arquivo run_all.ps1 na raiz do projeto com o conteúdo:
+
+Start-Process powershell -ArgumentList ".\venv\Scripts\activate; uvicorn app.api.server:app --reload --port 8000"
+Start-Sleep -Seconds 2
+Start-Process powershell -ArgumentList ".\venv\Scripts\activate; streamlit run app/web/main.py"
+
+Para executar:
+powershell -ExecutionPolicy Bypass -File .\run_all.ps1
+
+9) Problemas comuns
+-------------------
+A) ModuleNotFoundError: No module named 'fastapi'
+   → Ative a venv e reinstale:
+   .\venv\Scripts\activate
+   pip install fastapi uvicorn
+
+B) 'uvicorn' não é reconhecido
+   → pip install uvicorn[standard]
+
+C) ConnectionError [WinError 10061] no Streamlit
+   → O backend não está rodando. Suba o Uvicorn (passo 3) antes do Streamlit.
+
+D) Sidebar duplicada ou ícone estranho
+   → Use apenas o menu multipage nativo. No CSS, não estilize 'span' global.
+
+E) Navegação multipage não encontra páginas
+   → Rode sempre a partir da raiz do projeto:
+   streamlit run app/web/main.py
+   → Em switch_page/page_link use caminhos: "pages/2_Agencia.py" (sem 'app/web/...').
+
+10) Testar no celular (mesma rede Wi‑Fi)
+----------------------------------------
+O Streamlit mostra um Network URL (ex.: http://192.168.X.X:8501). Abra esse endereço no celular.
+Certifique-se de que o backend (porta 8000) também está ativo.
+

@@ -191,3 +191,34 @@ PermissionError: [Errno 13] Permission denied: 'C:\\Users\\erick\\OneDrive\\Docu
 2026-02-10 21:22:08 | INFO | excel_store | Pedido registrado | protocolo=SUP-20260210-212208 | agencia=A001 | insumo=BOBINA | qtd=30
 2026-02-10 21:26:48 | INFO | excel_store | DE-PARA carregado: 2 agências.
 2026-02-10 21:27:44 | INFO | excel_store | Pedido registrado | protocolo=SUP-20260210-212744 | agencia=A001 | insumo=BOBINA | qtd=50
+2026-02-13 13:59:41 | INFO | excel_store | DE-PARA carregado: 2 agências.
+2026-02-13 13:59:56 | INFO | excel_store | Pedido registrado | protocolo=SUP-20260213-135956 | agencia=A001 | insumo=BOLETO | qtd=50
+2026-02-18 14:09:41 | INFO | excel_store | DE-PARA carregado: 2 agências.
+2026-02-18 14:09:42 | INFO | excel_store | DE-PARA carregado: 2 agências.
+2026-02-18 14:09:44 | INFO | excel_store | DE-PARA carregado: 2 agências.
+2026-02-18 14:09:44 | INFO | excel_store | DE-PARA carregado: 2 agências.
+2026-02-18 14:09:44 | INFO | excel_store | DE-PARA carregado: 2 agências.
+2026-02-18 14:09:55 | INFO | excel_store | DE-PARA carregado: 2 agências.
+2026-02-18 14:12:09 | INFO | excel_store | DE-PARA carregado: 2 agências.
+2026-02-18 14:14:14 | INFO | excel_store | DE-PARA carregado: 2 agências.
+2026-02-18 14:18:48 | INFO | excel_store | DE-PARA carregado: 2 agências.
+2026-02-18 14:18:54 | INFO | excel_store | Pedido registrado | protocolo=SUP-20260218-141854 | agencia=A001 | insumo=BOBINA | qtd=1
+2026-02-18 14:27:02 | INFO | excel_store | DE-PARA carregado: 2 agências.
+2026-02-18 14:27:13 | INFO | excel_store | Pedido registrado | protocolo=SUP-20260218-142713 | agencia=A001 | insumo=BOBINA | qtd=2
+2026-02-18 14:36:16 | INFO | excel_store | DE-PARA carregado: 2 agências.
+2026-02-18 14:36:28 | INFO | excel_store | Pedido registrado | protocolo=SUP-20260218-143627 | agencia=A001 | insumo=BOBINA | qtd=5
+2026-02-18 14:43:36 | INFO | excel_store | DE-PARA carregado: 2 agências.
+2026-02-18 14:43:52 | INFO | excel_store | Pedido registrado | protocolo=SUP-20260218-144352 | agencia=A001 | insumo=BOBINA | qtd=1
+2026-02-18 14:55:21 | INFO | excel_store | DE-PARA carregado: 2 agências.
+2026-02-18 14:55:42 | INFO | excel_store | DE-PARA carregado: 2 agências.
+2026-02-18 16:17:28 | INFO | excel_store | DE-PARA carregado: 2 agências.
+2026-02-18 16:19:35 | INFO | excel_store | DE-PARA carregado: 2 agências.
+2026-02-18 16:19:40 | INFO | excel_store | DE-PARA carregado: 2 agências.
+2026-02-18 16:33:05 | INFO | excel_store | DE-PARA carregado: 2 agências.
+2026-02-18 16:36:04 | INFO | excel_store | DE-PARA carregado: 2 agências.
+2026-02-18 16:36:39 | INFO | excel_store | DE-PARA carregado: 2 agências.
+2026-02-18 16:36:43 | INFO | excel_store | DE-PARA carregado: 2 agências.
+2026-02-18 16:37:17 | INFO | excel_store | Pedido registrado | protocolo=SUP-20260218-163717 | agencia=A001 | insumo=BOBINA | qtd=10
+2026-02-18 19:27:53 | INFO | excel_store | DE-PARA carregado: 2 agências.
+2026-02-18 19:28:47 | INFO | excel_store | DE-PARA carregado: 2 agências.
+2026-02-18 19:29:04 | INFO | excel_store | Pedido registrado | protocolo=SUP-20260218-192904 | agencia=A001 | insumo=BOLETO | qtd=20
