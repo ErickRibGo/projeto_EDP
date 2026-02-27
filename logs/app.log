@@ -191,3 +191,268 @@ PermissionError: [Errno 13] Permission denied: 'C:\\Users\\erick\\OneDrive\\Docu
 2026-02-10 21:22:08 | INFO | excel_store | Pedido registrado | protocolo=SUP-20260210-212208 | agencia=A001 | insumo=BOBINA | qtd=30
 2026-02-10 21:26:48 | INFO | excel_store | DE-PARA carregado: 2 agências.
 2026-02-10 21:27:44 | INFO | excel_store | Pedido registrado | protocolo=SUP-20260210-212744 | agencia=A001 | insumo=BOBINA | qtd=50
+2026-02-13 13:59:41 | INFO | excel_store | DE-PARA carregado: 2 agências.
+2026-02-13 13:59:56 | INFO | excel_store | Pedido registrado | protocolo=SUP-20260213-135956 | agencia=A001 | insumo=BOLETO | qtd=50
+2026-02-18 14:09:41 | INFO | excel_store | DE-PARA carregado: 2 agências.
+2026-02-18 14:09:42 | INFO | excel_store | DE-PARA carregado: 2 agências.
+2026-02-18 14:09:44 | INFO | excel_store | DE-PARA carregado: 2 agências.
+2026-02-18 14:09:44 | INFO | excel_store | DE-PARA carregado: 2 agências.
+2026-02-18 14:09:44 | INFO | excel_store | DE-PARA carregado: 2 agências.
+2026-02-18 14:09:55 | INFO | excel_store | DE-PARA carregado: 2 agências.
+2026-02-18 14:12:09 | INFO | excel_store | DE-PARA carregado: 2 agências.
+2026-02-18 14:14:14 | INFO | excel_store | DE-PARA carregado: 2 agências.
+2026-02-18 14:18:48 | INFO | excel_store | DE-PARA carregado: 2 agências.
+2026-02-18 14:18:54 | INFO | excel_store | Pedido registrado | protocolo=SUP-20260218-141854 | agencia=A001 | insumo=BOBINA | qtd=1
+2026-02-18 14:27:02 | INFO | excel_store | DE-PARA carregado: 2 agências.
+2026-02-18 14:27:13 | INFO | excel_store | Pedido registrado | protocolo=SUP-20260218-142713 | agencia=A001 | insumo=BOBINA | qtd=2
+2026-02-18 14:36:16 | INFO | excel_store | DE-PARA carregado: 2 agências.
+2026-02-18 14:36:28 | INFO | excel_store | Pedido registrado | protocolo=SUP-20260218-143627 | agencia=A001 | insumo=BOBINA | qtd=5
+2026-02-18 14:43:36 | INFO | excel_store | DE-PARA carregado: 2 agências.
+2026-02-18 14:43:52 | INFO | excel_store | Pedido registrado | protocolo=SUP-20260218-144352 | agencia=A001 | insumo=BOBINA | qtd=1
+2026-02-18 14:55:21 | INFO | excel_store | DE-PARA carregado: 2 agências.
+2026-02-18 14:55:42 | INFO | excel_store | DE-PARA carregado: 2 agências.
+2026-02-18 16:17:28 | INFO | excel_store | DE-PARA carregado: 2 agências.
+2026-02-18 16:19:35 | INFO | excel_store | DE-PARA carregado: 2 agências.
+2026-02-18 16:19:40 | INFO | excel_store | DE-PARA carregado: 2 agências.
+2026-02-18 16:33:05 | INFO | excel_store | DE-PARA carregado: 2 agências.
+2026-02-18 16:36:04 | INFO | excel_store | DE-PARA carregado: 2 agências.
+2026-02-18 16:36:39 | INFO | excel_store | DE-PARA carregado: 2 agências.
+2026-02-18 16:36:43 | INFO | excel_store | DE-PARA carregado: 2 agências.
+2026-02-18 16:37:17 | INFO | excel_store | Pedido registrado | protocolo=SUP-20260218-163717 | agencia=A001 | insumo=BOBINA | qtd=10
+2026-02-18 19:27:53 | INFO | excel_store | DE-PARA carregado: 2 agências.
+2026-02-18 19:28:47 | INFO | excel_store | DE-PARA carregado: 2 agências.
+2026-02-18 19:29:04 | INFO | excel_store | Pedido registrado | protocolo=SUP-20260218-192904 | agencia=A001 | insumo=BOLETO | qtd=20
+2026-02-19 07:51:22 | INFO | excel_store | DE-PARA carregado: 2 agências.
+2026-02-19 08:01:14 | INFO | excel_store | DE-PARA carregado: 2 agências.
+2026-02-19 08:01:28 | INFO | excel_store | Pedido registrado | protocolo=SUP-20260219-080127 | agencia=A001 | insumo=BOLETO | qtd=1
+2026-02-25 08:29:38 | INFO | excel_store | DE-PARA carregado: 2 agências.
+2026-02-25 08:29:50 | INFO | excel_store | Pedido registrado | protocolo=SUP-20260225-082950 | agencia=A001 | insumo=BOBINA | qtd=30
+2026-02-25 08:31:17 | INFO | excel_store | DE-PARA carregado: 2 agências.
+2026-02-25 08:34:45 | INFO | excel_store | DE-PARA carregado: 3 agências.
+2026-02-25 08:40:14 | INFO | excel_store | DE-PARA carregado: 3 agências.
+2026-02-25 08:42:33 | INFO | excel_store | Pedido registrado | protocolo=SUP-20260225-084232 | agencia=A003 | insumo=BOLETO | qtd=1
+2026-02-25 08:58:09 | INFO | excel_store | DE-PARA carregado: 3 agências.
+2026-02-25 08:58:30 | INFO | excel_store | DE-PARA carregado: 3 agências.
+2026-02-25 09:00:22 | INFO | excel_store | DE-PARA carregado: 3 agências.
+2026-02-25 09:00:27 | INFO | excel_store | Pedido registrado | protocolo=SUP-20260225-090027 | agencia=A003 | insumo=BOBINA | qtd=1
+2026-02-25 09:02:19 | INFO | excel_store | DE-PARA carregado: 3 agências.
+2026-02-25 09:02:25 | INFO | excel_store | Pedido registrado | protocolo=SUP-20260225-090225 | agencia=A003 | insumo=BOLETO | qtd=122
+2026-02-25 09:04:15 | INFO | excel_store | DE-PARA carregado: 3 agências.
+2026-02-25 09:04:22 | INFO | excel_store | Pedido registrado | protocolo=SUP-20260225-090422 | agencia=A003 | insumo=BOLETO | qtd=14465
+2026-02-25 09:05:22 | INFO | excel_store | DE-PARA carregado: 3 agências.
+2026-02-25 09:05:27 | INFO | excel_store | Pedido registrado | protocolo=SUP-20260225-090527 | agencia=A003 | insumo=BOBINA | qtd=1
+2026-02-25 09:07:00 | INFO | excel_store | DE-PARA carregado: 3 agências.
+2026-02-25 09:07:07 | INFO | excel_store | Pedido registrado | protocolo=SUP-20260225-090707 | agencia=A001 | insumo=BOBINA | qtd=123
+2026-02-25 09:08:13 | INFO | excel_store | DE-PARA carregado: 3 agências.
+2026-02-25 09:08:21 | INFO | excel_store | Pedido registrado | protocolo=SUP-20260225-090821 | agencia=A002 | insumo=BOBINA | qtd=1656
+2026-02-25 09:08:43 | INFO | excel_store | DE-PARA carregado: 3 agências.
+2026-02-25 09:09:52 | INFO | excel_store | DE-PARA carregado: 3 agências.
+2026-02-25 09:09:57 | INFO | excel_store | Pedido registrado | protocolo=SUP-20260225-090957 | agencia=A003 | insumo=BOLETO | qtd=1
+2026-02-25 09:17:45 | INFO | excel_store | DE-PARA carregado: 3 agências.
+2026-02-25 09:17:50 | INFO | excel_store | DE-PARA carregado: 3 agências.
+2026-02-25 09:48:34 | INFO | excel_store | DE-PARA carregado: 3 agências.
+2026-02-25 09:48:42 | INFO | excel_store | Pedido registrado | protocolo=SUP-20260225-094842 | agencia=A001 | insumo=ENVELOPE | qtd=123
+2026-02-25 10:00:17 | INFO | excel_store | DE-PARA carregado: 3 agências.
+2026-02-25 10:02:13 | INFO | excel_store | DE-PARA carregado: 3 agências.
+2026-02-25 10:02:15 | INFO | excel_store | DE-PARA carregado: 3 agências.
+2026-02-25 10:03:34 | INFO | excel_store | DE-PARA carregado: 3 agências.
+2026-02-25 10:08:49 | INFO | excel_store | DE-PARA carregado: 3 agências.
+2026-02-25 10:10:42 | INFO | excel_store | DE-PARA carregado: 3 agências.
+2026-02-25 10:10:44 | INFO | excel_store | DE-PARA carregado: 3 agências.
+2026-02-25 10:10:46 | INFO | excel_store | DE-PARA carregado: 3 agências.
+2026-02-25 10:12:18 | INFO | excel_store | DE-PARA carregado: 3 agências.
+2026-02-25 10:12:25 | INFO | excel_store | DE-PARA carregado: 3 agências.
+2026-02-25 10:13:39 | INFO | excel_store | DE-PARA carregado: 3 agências.
+2026-02-25 10:13:44 | INFO | excel_store | DE-PARA carregado: 3 agências.
+2026-02-25 10:14:31 | INFO | excel_store | DE-PARA carregado: 3 agências.
+2026-02-25 10:14:36 | INFO | excel_store | Pedido registrado | protocolo=SUP-20260225-101436 | agencia=A003 | insumo=BOBINA 80MM | qtd=1345
+2026-02-25 10:54:34 | INFO | excel_store | DE-PARA carregado: 3 agências.
+2026-02-25 10:54:47 | INFO | excel_store | DE-PARA carregado: 3 agências.
+2026-02-25 10:55:03 | ERROR | excel_store | Erro ao gravar pedido: [Errno 13] Permission denied: 'C:\\Users\\E713118\\OneDrive - EDP\\Documentos\\BOT-AGÊNCIAS\\automacao_suprimentos\\app\\data\\pedidos.xlsx'
+Traceback (most recent call last):
+  File "C:\Users\E713118\OneDrive - EDP\Documentos\BOT-AGÊNCIAS\automacao_suprimentos\app\io\excel_store.py", line 48, in append_pedido
+    df.to_excel(PEDIDOS_XLSX, index=False, engine=ENGINE)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\E713118\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\util\_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\E713118\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\generic.py", line 2439, in to_excel
+    formatter.write(
+    ~~~~~~~~~~~~~~~^
+        excel_writer,
+        ^^^^^^^^^^^^^
+    ...<6 lines>...
+        engine_kwargs=engine_kwargs,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\E713118\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\formats\excel.py", line 943, in write
+    writer = ExcelWriter(
+        writer,
+    ...<2 lines>...
+        engine_kwargs=engine_kwargs,
+    )
+  File "C:\Users\E713118\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\excel\_openpyxl.py", line 61, in __init__
+    super().__init__(
+    ~~~~~~~~~~~~~~~~^
+        path,
+        ^^^^^
+    ...<3 lines>...
+        engine_kwargs=engine_kwargs,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\E713118\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\excel\_base.py", line 1246, in __init__
+    self._handles = get_handle(
+                    ~~~~~~~~~~^
+        path, mode, storage_options=storage_options, is_text=False
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\E713118\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\common.py", line 882, in get_handle
+    handle = open(handle, ioargs.mode)
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\E713118\\OneDrive - EDP\\Documentos\\BOT-AGÊNCIAS\\automacao_suprimentos\\app\\data\\pedidos.xlsx'
+2026-02-25 11:17:25 | INFO | excel_store | DE-PARA carregado: 3 agências.
+2026-02-25 11:17:32 | INFO | excel_store | Pedido registrado | protocolo=SUP-20260225-111732 | agencia=A003 | insumo=BOBINA 80MM | qtd=16565
+2026-02-25 14:03:02 | INFO | excel_store | DE-PARA carregado: 69 agências.
+2026-02-25 14:03:08 | INFO | excel_store | DE-PARA carregado: 69 agências.
+2026-02-25 14:03:16 | INFO | excel_store | Pedido registrado | protocolo=SUP-20260225-140316 | agencia=A069 | insumo=BOBINA 80MM | qtd=169
+2026-02-25 14:20:52 | INFO | excel_store | DE-PARA carregado: 69 agências.
+2026-02-26 09:09:28 | INFO | excel_store | DE-PARA carregado: 69 agências.
+2026-02-26 09:09:40 | INFO | excel_store | DE-PARA carregado: 69 agências.
+2026-02-26 09:09:40 | INFO | excel_store | Pedido registrado | protocolo=SUP-20260226-090940 | agencia=A003 | insumo=BOBINA 57MM | qtd=100
+2026-02-26 09:29:11 | INFO | excel_store | DE-PARA carregado: 69 agências.
+2026-02-26 09:29:11 | INFO | excel_store | DE-PARA carregado: 69 agências.
+2026-02-26 09:29:26 | INFO | excel_store | DE-PARA carregado: 69 agências.
+2026-02-26 09:29:40 | INFO | excel_store | DE-PARA carregado: 69 agências.
+2026-02-26 09:29:40 | INFO | excel_store | Pedido registrado | protocolo=SUP-20260226-092940 | agencia=A001 | insumo=BOBINA 57MM | qtd=12
+2026-02-26 09:53:38 | INFO | excel_store | DE-PARA carregado: 69 agências.
+2026-02-26 09:53:48 | INFO | excel_store | DE-PARA carregado: 69 agências.
+2026-02-26 09:54:24 | INFO | excel_store | DE-PARA carregado: 69 agências.
+2026-02-26 09:54:34 | INFO | excel_store | DE-PARA carregado: 69 agências.
+2026-02-26 09:54:34 | INFO | excel_store | Pedido registrado | protocolo=SUP-20260226-095434 | agencia=A002 | insumo=BOBINA 57MM | qtd=1222
+2026-02-26 10:31:48 | INFO | excel_store | DE-PARA carregado: 69 agências.
+2026-02-26 10:33:14 | INFO | excel_store | DE-PARA carregado: 69 agências.
+2026-02-26 10:37:15 | INFO | excel_store | DE-PARA carregado: 69 agências.
+2026-02-26 10:37:17 | INFO | excel_store | DE-PARA carregado: 69 agências.
+2026-02-26 10:37:25 | INFO | excel_store | DE-PARA carregado: 69 agências.
+2026-02-26 10:37:25 | ERROR | excel_store | Erro ao gravar pedido: [Errno 13] Permission denied: 'C:\\Users\\E713118\\OneDrive - EDP\\Documentos\\BOT-AGÊNCIAS\\automacao_suprimentos\\app\\data\\pedidos.xlsx'
+Traceback (most recent call last):
+  File "C:\Users\E713118\OneDrive - EDP\Documentos\BOT-AGÊNCIAS\automacao_suprimentos\app\io\excel_store.py", line 48, in append_pedido
+    df.to_excel(PEDIDOS_XLSX, index=False, engine=ENGINE)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\E713118\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\util\_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\E713118\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\generic.py", line 2439, in to_excel
+    formatter.write(
+    ~~~~~~~~~~~~~~~^
+        excel_writer,
+        ^^^^^^^^^^^^^
+    ...<6 lines>...
+        engine_kwargs=engine_kwargs,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\E713118\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\formats\excel.py", line 943, in write
+    writer = ExcelWriter(
+        writer,
+    ...<2 lines>...
+        engine_kwargs=engine_kwargs,
+    )
+  File "C:\Users\E713118\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\excel\_openpyxl.py", line 61, in __init__
+    super().__init__(
+    ~~~~~~~~~~~~~~~~^
+        path,
+        ^^^^^
+    ...<3 lines>...
+        engine_kwargs=engine_kwargs,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\E713118\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\excel\_base.py", line 1246, in __init__
+    self._handles = get_handle(
+                    ~~~~~~~~~~^
+        path, mode, storage_options=storage_options, is_text=False
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\E713118\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\common.py", line 882, in get_handle
+    handle = open(handle, ioargs.mode)
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\E713118\\OneDrive - EDP\\Documentos\\BOT-AGÊNCIAS\\automacao_suprimentos\\app\\data\\pedidos.xlsx'
+2026-02-26 10:41:05 | INFO | excel_store | DE-PARA carregado: 69 agências.
+2026-02-26 10:41:11 | INFO | excel_store | DE-PARA carregado: 69 agências.
+2026-02-26 10:41:11 | ERROR | excel_store | Erro ao gravar pedido: [Errno 13] Permission denied: 'C:\\Users\\E713118\\OneDrive - EDP\\Documentos\\BOT-AGÊNCIAS\\automacao_suprimentos\\app\\data\\pedidos.xlsx'
+Traceback (most recent call last):
+  File "C:\Users\E713118\OneDrive - EDP\Documentos\BOT-AGÊNCIAS\automacao_suprimentos\app\io\excel_store.py", line 48, in append_pedido
+    df.to_excel(PEDIDOS_XLSX, index=False, engine=ENGINE)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\E713118\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\util\_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\E713118\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\generic.py", line 2439, in to_excel
+    formatter.write(
+    ~~~~~~~~~~~~~~~^
+        excel_writer,
+        ^^^^^^^^^^^^^
+    ...<6 lines>...
+        engine_kwargs=engine_kwargs,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\E713118\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\formats\excel.py", line 943, in write
+    writer = ExcelWriter(
+        writer,
+    ...<2 lines>...
+        engine_kwargs=engine_kwargs,
+    )
+  File "C:\Users\E713118\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\excel\_openpyxl.py", line 61, in __init__
+    super().__init__(
+    ~~~~~~~~~~~~~~~~^
+        path,
+        ^^^^^
+    ...<3 lines>...
+        engine_kwargs=engine_kwargs,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\E713118\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\excel\_base.py", line 1246, in __init__
+    self._handles = get_handle(
+                    ~~~~~~~~~~^
+        path, mode, storage_options=storage_options, is_text=False
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\E713118\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\common.py", line 882, in get_handle
+    handle = open(handle, ioargs.mode)
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\E713118\\OneDrive - EDP\\Documentos\\BOT-AGÊNCIAS\\automacao_suprimentos\\app\\data\\pedidos.xlsx'
+2026-02-26 10:43:26 | INFO | excel_store | DE-PARA carregado: 69 agências.
+2026-02-26 10:43:33 | INFO | excel_store | DE-PARA carregado: 69 agências.
+2026-02-26 10:43:34 | INFO | excel_store | Pedido registrado | protocolo=SUP-20260226-104333 | agencia=A003 | insumo=PAPEL A4 | qtd=1
+2026-02-26 10:47:21 | INFO | excel_store | DE-PARA carregado: 69 agências.
+2026-02-26 10:48:00 | INFO | excel_store | DE-PARA carregado: 69 agências.
+2026-02-26 10:48:00 | INFO | excel_store | Pedido registrado | protocolo=SUP-20260226-104800 | agencia=A069 | insumo=BOLETO | qtd=100
+2026-02-26 11:07:38 | INFO | excel_store | DE-PARA carregado: 69 agências.
+2026-02-26 11:07:49 | INFO | excel_store | DE-PARA carregado: 69 agências.
+2026-02-26 11:07:49 | INFO | excel_store | Pedido registrado | protocolo=SUP-20260226-110749 | agencia=A009 | insumo=BOBINA 57MM | qtd=123
+2026-02-26 11:08:57 | INFO | excel_store | DE-PARA carregado: 69 agências.
+2026-02-26 11:09:05 | INFO | excel_store | DE-PARA carregado: 69 agências.
+2026-02-26 11:09:05 | INFO | excel_store | Pedido registrado | protocolo=SUP-20260226-110905 | agencia=A002 | insumo=BOBINA 57MM | qtd=1203
+2026-02-26 11:18:08 | INFO | excel_store | DE-PARA carregado: 69 agências.
+2026-02-26 11:18:17 | INFO | excel_store | DE-PARA carregado: 69 agências.
+2026-02-26 11:18:17 | INFO | excel_store | Pedido registrado | protocolo=SUP-20260226-111817 | agencia=A001 | insumo=BOBINA 80MM | qtd=100
+2026-02-26 11:23:36 | INFO | excel_store | DE-PARA carregado: 69 agências.
+2026-02-26 11:23:45 | INFO | excel_store | DE-PARA carregado: 69 agências.
+2026-02-26 11:23:45 | INFO | excel_store | Pedido registrado | protocolo=SUP-20260226-112345 | agencia=A001 | insumo=BOBINA 57MM | qtd=12
+2026-02-26 13:43:50 | INFO | excel_store | DE-PARA carregado: 69 agências.
+2026-02-26 13:44:02 | INFO | excel_store | DE-PARA carregado: 69 agências.
+2026-02-26 13:44:02 | INFO | excel_store | Pedido registrado | protocolo=SUP-20260226-134402 | agencia=A001 | insumo=BOBINA 57MM | qtd=1
+2026-02-26 13:46:43 | INFO | excel_store | DE-PARA carregado: 69 agências.
+2026-02-26 13:46:49 | INFO | excel_store | DE-PARA carregado: 69 agências.
+2026-02-26 13:46:49 | INFO | excel_store | Pedido registrado | protocolo=SUP-20260226-134649 | agencia=A001 | insumo=BOBINA 57MM | qtd=1
+2026-02-26 13:52:23 | INFO | excel_store | DE-PARA carregado: 69 agências.
+2026-02-26 13:52:32 | INFO | excel_store | DE-PARA carregado: 69 agências.
+2026-02-26 13:52:32 | INFO | excel_store | Pedido registrado | protocolo=SUP-20260226-135232 | agencia=A001 | insumo=BOBINA 57MM | qtd=1
+2026-02-26 14:11:58 | INFO | excel_store | DE-PARA carregado: 69 agências.
+2026-02-26 14:12:06 | INFO | excel_store | DE-PARA carregado: 69 agências.
+2026-02-26 14:12:06 | INFO | excel_store | Pedido registrado | protocolo=SUP-20260226-141206 | agencia=A001 | insumo=BOBINA 57MM | qtd=1
+2026-02-26 14:19:01 | INFO | excel_store | DE-PARA carregado: 69 agências.
+2026-02-26 14:19:09 | INFO | excel_store | DE-PARA carregado: 69 agências.
+2026-02-26 14:19:09 | INFO | excel_store | Pedido registrado | protocolo=SUP-20260226-141909 | agencia=A001 | insumo=BOBINA 80MM | qtd=1

@@ -8,7 +8,7 @@ from app.core.logger import get_logger
 logger = get_logger("cli")
 
 def fluxo_atendimento(df_depara):
-    _ = input("Cliente: ")  # inicia conversa com qualquer mensagem
+    _ = input("Cliente: ")  
     print("\nBot: Qual o código da sua agência?")
     codigo = input("Cliente: ").strip().upper()
 

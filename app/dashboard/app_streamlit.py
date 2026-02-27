@@ -6,7 +6,7 @@ from pathlib import Path
 DATA = Path(__file__).resolve().parents[1] / "data" / "pedidos.xlsx"
 
 st.set_page_config(page_title="Consumo de Insumos (MVP)", layout="wide")
-st.title("📊 Dashboard – Consumo de Insumos")
+st.title("DASHBOARD – CONSUMO AGÊNCIAS")
 
 @st.cache_data(ttl=10)
 def carregar_pedidos():
@@ -14,7 +14,7 @@ def carregar_pedidos():
         return pd.read_excel(DATA, engine="openpyxl")
     except Exception as e:
         st.error(f"Erro ao carregar dados: {e}")
-        return pd.DataFrame(columns=["protocolo","data_hora","codigo_agencia","nome_agencia",
+        return pd.DataFrame(columns=["protocolo","data_hora","codigo_agencia",
                                      "insumo","quantidade","solicitante","canal","status"])
 
 df = carregar_pedidos()
