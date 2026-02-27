@@ -222,6 +222,7 @@ PermissionError: [Errno 13] Permission denied: 'C:\\Users\\erick\\OneDrive\\Docu
 2026-02-18 19:27:53 | INFO | excel_store | DE-PARA carregado: 2 agências.
 2026-02-18 19:28:47 | INFO | excel_store | DE-PARA carregado: 2 agências.
 2026-02-18 19:29:04 | INFO | excel_store | Pedido registrado | protocolo=SUP-20260218-192904 | agencia=A001 | insumo=BOLETO | qtd=20
+<<<<<<< HEAD
 2026-02-19 07:51:22 | INFO | excel_store | DE-PARA carregado: 2 agências.
 2026-02-19 08:01:14 | INFO | excel_store | DE-PARA carregado: 2 agências.
 2026-02-19 08:01:28 | INFO | excel_store | Pedido registrado | protocolo=SUP-20260219-080127 | agencia=A001 | insumo=BOLETO | qtd=1
@@ -456,3 +457,5 @@ PermissionError: [Errno 13] Permission denied: 'C:\\Users\\E713118\\OneDrive - E
 2026-02-26 14:19:01 | INFO | excel_store | DE-PARA carregado: 69 agências.
 2026-02-26 14:19:09 | INFO | excel_store | DE-PARA carregado: 69 agências.
 2026-02-26 14:19:09 | INFO | excel_store | Pedido registrado | protocolo=SUP-20260226-141909 | agencia=A001 | insumo=BOBINA 80MM | qtd=1
+=======
+>>>>>>> d06682d89b0a215486ca18684924eef5f4fa1016

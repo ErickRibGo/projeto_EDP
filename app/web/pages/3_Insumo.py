@@ -8,6 +8,7 @@ with col2:
     st.title("📦 Insumos")
     st.write("Escolha o insumo que deseja solicitar.")
 
+<<<<<<< HEAD
     insumos = [
         "Bobina 57mm",
         "Bobina 80mm",
@@ -35,6 +36,12 @@ with col2:
         ok = st.form_submit_button("Avançar")
 
     # FORA do form
+=======
+    with st.form("form_insumo"):
+        insumo = st.radio("Insumo:", ["Bobina", "Boleto"], index=0)
+        ok = st.form_submit_button("Avançar")
+
+>>>>>>> d06682d89b0a215486ca18684924eef5f4fa1016
     if ok:
         st.session_state["insumo"] = insumo.upper()
         st.switch_page("pages/4_Quantidade.py")

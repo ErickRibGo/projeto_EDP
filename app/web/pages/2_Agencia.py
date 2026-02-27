@@ -13,6 +13,10 @@ with col2:
         submit = st.form_submit_button("Validar")
 
     if submit:
+<<<<<<< HEAD
+=======
+        # chamada simples ao backend — ajuste se necessário
+>>>>>>> d06682d89b0a215486ca18684924eef5f4fa1016
         import requests
         try:
             r = requests.get(f"http://localhost:8000/validar_agencia/{codigo}", timeout=10)

@@ -29,9 +29,12 @@ uvicorn app.api.server:app --reload --port 8000
 # Esperado no terminal:
 # Uvicorn running on http://127.0.0.1:8000
 
+<<<<<<< HEAD
 SUBIR DASHBOARD
 streamlit run app/dashboard/app_streamlit.py
 
+=======
+>>>>>>> d06682d89b0a215486ca18684924eef5f4fa1016
 3.1) (Opcional) Teste rápido do backend no navegador
 ----------------------------------------------------
 http://127.0.0.1:8000/docs

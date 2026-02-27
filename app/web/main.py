@@ -13,4 +13,8 @@ with col2:
     st.write("Automação de pedidos com validação, rastreabilidade e protocolo.")
     st.markdown("<div class='card'>Clique no botão abaixo para iniciar um novo pedido.</div>", unsafe_allow_html=True)
     if st.button("Entrar no Sistema"):
+<<<<<<< HEAD
         st.switch_page("pages/1_Login.py")
+=======
+        st.switch_page("pages/2_Agencia.py")
+>>>>>>> d06682d89b0a215486ca18684924eef5f4fa1016
